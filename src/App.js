@@ -2,7 +2,7 @@ import React from 'react';
 import Login from './components/Login';
 import Main from './components/Main';
 import Error from './components/Error';
-import {Route, Switch,Redirect, Link} from 'react-router-dom';
+import {Route, Switch,Redirect} from 'react-router-dom';
 
 
 const App=()=>{

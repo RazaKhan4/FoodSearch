@@ -1,5 +1,6 @@
 import React, { useState, } from 'react';
 import {useHistory} from 'react-router-dom';
+import Footer from './Footer';
 
 const Login=()=>{
            const[name,setName]=useState("")
@@ -62,6 +63,7 @@ const Login=()=>{
                </button>
                
           </form>
+          <Footer />
           </div>
         </>
     );
